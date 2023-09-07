@@ -1,0 +1,146 @@
+.Extra_container{
+    max-width: 1440px;
+    background-color: rgba(250, 248, 246, 1);
+    height: 750px;
+}
+
+.Extra_content{
+    margin: auto;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Extra_text_block p{
+    width: 80%;
+    color: rgba(74, 85, 108, 1);
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 28px;
+}
+
+.Extra_text_block h2{
+    color: rgba(51, 52, 97, 1);
+    font-weight: 800;
+    font-size: 3.3vw;
+    line-height: 58px;
+    letter-spacing: -1%;
+}
+
+.Extra_text_block button{
+    width: 14vw;
+    background-color: rgba(32, 173, 150, 1);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1vw;
+    color: rgba(255, 255, 255, 1);
+    line-height: 18.2px;
+    border: none;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Extra_image_block{
+    width: 100%;
+}
+
+.Extra_image_block img{
+    width: 100%;
+}
+
+.Wave{
+    margin: 60px 35px;
+}
+
+
+/* Perfect-style */
+
+.Perfect_container{
+    max-width: 1440px;
+    background-color: rgba(250, 248, 246, 1);
+    height: 860px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.Perfect_content{
+    position: absolute;
+    width: 85%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.Perfect_texts_flex_block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Perfect_text_block{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.Perfect_text_block small{
+    font-size: 1vw;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(74, 85, 108, 0.5);
+}
+
+.Perfect_text_block h2{
+    font-size: 3.3vw;
+    font-weight: 800;
+    line-height: 58px;
+    letter-spacing: -2%;
+    color: rgba(51, 52, 97, 1);
+
+}
+
+.Text_flex_mini_blocks{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Perfect_text_flex_2{
+    width: 50%;
+    position: relative;
+    background-color: rgba(255, 255, 255, 1);
+    height: 500px;
+}
+
+.Child_text_flex{
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 85%;
+}
+
+.Perfect_text_flex_1 h4{
+    font-weight: 700;
+    font-size: 1.5vw;
+    line-height: 26px;
+    letter-spacing: -1%;
+    color: rgba(51, 52, 97, 1);
+}
+
+.Text_flex_mini_blocks p{
+    font-size: 1.1vw;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(102, 112, 133, 1);
+}
+
+.Child_text_flex h4{
+    font-weight: 700;
+    font-size: 1.5vw;
+    line-height: 26px;
+    letter-spacing: -1%;
+    color: rgba(51, 52, 97, 1);
+}

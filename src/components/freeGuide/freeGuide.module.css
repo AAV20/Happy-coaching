@@ -1,0 +1,355 @@
+.Freeguide_container{
+    max-width: 1440px;
+}
+
+.Freeguide_content{
+    width: 85%;
+    margin: 100px auto;
+}
+
+.Freeguide_registration_block form{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    gap: 13px;
+}
+
+.Freeguide_registration_block form button{
+    height: 44px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(32, 173, 150, 1);
+    font-weight: 500;
+    font-size: 1.1vw;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.Freeguide_registration_block form input{
+    height: 44px;
+}
+
+.Freeguide_registration_block form span{
+    font-weight: 400;
+    font-size: 0.8vw;
+    line-height: 20px;
+    color: rgba(102, 112, 133, 1);
+}
+
+.Freeguide_title_block{
+    padding-bottom: 30px;
+}
+
+.Freeguide_title_block h2{
+    font-weight: 800;
+    font-size: 3.3vw;
+    line-height: 58px;
+    letter-spacing: -2%;
+    color: rgba(51, 52, 97, 1);
+}
+
+.Freeguide_title_block p{
+    font-weight: 400;
+    font-size: 1.6vw;
+    line-height: 30px;
+    color: rgba(74, 85, 108, 0.7);
+    max-width: 480px;
+}
+
+.Freeguide_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* block1-style */
+
+.Block1_container{
+    width: 85%;
+    margin: 100px auto;
+}
+
+.Block1_title_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Block1_title_child_block small{
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 24px;
+    color: rgba(74, 85, 108, 0.5);
+}
+
+.Block1_title_child_block h2{
+    font-weight: 800;
+    font-size: 3.3vw;
+    line-height: 58px;
+    letter-spacing: -2%;
+    color: rgba(51, 52, 97, 1);
+}
+
+.Block1_title_block button{
+    width: 14vw;
+    background-color: rgba(32, 173, 150, 1);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1vw;
+    color: rgba(255, 255, 255, 1);
+    line-height: 18.2px;
+    border: none;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* block2-style */
+
+.Block2_container{
+    width: 85%;
+    margin: 100px auto;
+}
+
+
+.Block2_flex_1{
+    display: flex;
+    margin-bottom: 50px;
+    gap: 50px;
+
+}
+
+.Block2_flex_2{
+    display: flex;
+    gap: 50px;
+}
+
+.Child_content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.Child_content h5{
+    font-weight: 700;
+    font-size: 1.3vw;
+    line-height: 24px;
+    color: rgba(51, 52, 97, 1);
+}
+
+
+.Block2_flex_1_child{
+    position: relative;
+    background-color: rgba(237, 239, 245, 1);
+    width: 60%;
+    height: 320px;
+}
+
+
+.Block2_flex_1 p{
+    max-width: 400px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 24px;
+    color: rgba(102, 112, 133, 1);
+}
+
+.Block2_flex_2 p{
+    max-width: 400px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 24px;
+    color: rgba(102, 112, 133, 1);
+}
+
+.Stars_icons{
+    color: rgba(254, 200, 75, 1);
+}
+
+/* block3-style */
+
+.Block3_container{
+    width: 100%;
+    background-color: rgba(250, 248, 246, 1);
+}
+
+.Block3_content{
+    width: 85%;
+    height: 518px;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+small{
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 24px;
+    color: rgba(74, 85, 108, 0.5);
+}
+
+.Block3_text_block_1 p{
+    max-width: 500px;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 30px;
+    color: rgba(74, 85, 108, 0.7);
+}
+
+.Block3_text_block_1 h2{
+    font-weight: 800;
+    font-size: 3.3vw;
+    line-height: 58px;
+    letter-spacing: -2%;
+    color: rgba(51, 52, 97, 1);
+}
+
+.Block3_text_flex_1 h5{
+    font-weight: 700;
+    font-size: 1.3vw;
+    line-height: 24px;
+    color: rgba(51, 52, 97, 1);
+}
+
+.Block3_text_flex_1 img{
+    cursor: pointer;
+}
+
+.Block3_text_flex_2 img{
+    cursor: pointer;
+}
+
+.Block3_text_flex_1 p{
+    font-weight: 400;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 30px;
+    color: rgba(74, 85, 108, 0.7);
+}
+
+.Block3_text_flex_2 p{
+    font-weight: 400;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 30px;
+    color: rgba(74, 85, 108, 0.7);
+}
+
+.Block3_text_flex_2 h5{
+    font-weight: 700;
+    font-size: 1.3vw;
+    line-height: 24px;
+    color: rgba(51, 52, 97, 1);
+}
+
+.Block3_text_flex_1{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+
+.Block3_text_flex_2{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.Block3_text_flex_1 p{
+    max-width: 496px;
+}
+
+.Block3_text_flex_2 p{
+    max-width: 496px;
+}
+
+/* video-style */
+
+.Video_block_content{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+iframe{
+    margin-top: 50px;
+    border-radius: 15px;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* block4-style */
+
+.Block4_content{
+    width: 85%;
+    margin: auto;
+}
+
+.Block4_title_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Block4_title_block p{
+    width: 60%;
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 25px;
+    color: rgba(74, 85, 108, 0.8);
+    text-align: center;
+}
+
+.Block4_title_block h2{
+    font-weight: 800;
+    font-size: 3.3vw;
+    color: rgba(51, 52, 97, 1);
+    line-height: 56px;
+    letter-spacing: -1%;
+}
+
+.Block4_title_block h2 span{
+    font-weight: 800;
+    font-size: 3.3vw;
+    color: rgba(32, 173, 150, 1);
+    line-height: 56px;
+    letter-spacing: -1%;
+}
+
+.Block4_title_block button{
+    width: 14vw;
+    background-color: rgba(32, 173, 150, 1);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1vw;
+    color: rgba(255, 255, 255, 1);
+    line-height: 18.2px;
+    border: none;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.Block_title_block small{
+    font-weight: 400;
+    font-size: 0.9vw;
+    line-height: 24px;
+    color: rgba(74, 85, 108, 0.5);
+}
+
+.StarIcons{
+    color: rgba(254, 200, 75, 1);
+}
